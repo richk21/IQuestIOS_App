@@ -11,18 +11,14 @@ An IOS Application for IQuest Club, VIT, Vellore.
 It is an IOS app made for Innovator's Quest Club, VIT, Vellore. The app layout consists of-
 ### 1. Splash Screen 
 #### Animated with a zoom in effect(eg- skype).
-<p align=center>
 ![splashScreen](https://user-images.githubusercontent.com/64418209/189524764-038b9af9-6ec9-4bed-b388-6dc19ee97c92.gif)
-    </p>
     
 ### 2. Home page 
 #### Containing a stretchy header, horizontal carousel and stacks arranged in a tile view with graphics.
-<p align=center>
 ![homeScreen](https://user-images.githubusercontent.com/64418209/189524975-72909780-53a7-4b51-be03-130b3230131d.gif)
     
 ### 3. Event Registration page 
 #### Containing a stretchy header, event description and a registration button.
-<p align=center>
 ![regScreen](https://user-images.githubusercontent.com/64418209/189524997-359c4c17-517e-46af-9af8-190de4060066.gif)
     
 ### 4. Event's page 
