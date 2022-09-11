@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0F02EE2861AD8300FDD65C /* blogsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F02ED2861AD8300FDD65C /* blogsPage.swift */; };
+		9B0F02F02861B1CA00FDD65C /* pinterestGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F02EF2861B1CA00FDD65C /* pinterestGrid.swift */; };
+		9B0F02F22862E4D700FDD65C /* achievementsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F02F12862E4D700FDD65C /* achievementsPage.swift */; };
+		9B0F02F42862E67A00FDD65C /* aboutUsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F02F32862E67A00FDD65C /* aboutUsPage.swift */; };
+		9B38DEF7284558DF00A01303 /* pythonImageScraper.py in Resources */ = {isa = PBXBuildFile; fileRef = 9B38DEF6284558DF00A01303 /* pythonImageScraper.py */; };
+		9B3B19492858ACD400E6B3B3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9B3B19482858ACD400E6B3B3 /* SDWebImageSwiftUI */; };
+		9B58E792285B16BA00E1EEFC /* projectsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58E791285B16B900E1EEFC /* projectsPage.swift */; };
+		9B58E794285EEB4400E1EEFC /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58E793285EEB4400E1EEFC /* homePage.swift */; };
+		9B6EAC7E2854BFD5009498E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B6EAC7D2854BFD5009498E8 /* GoogleService-Info.plist */; };
+		9B6EAC822855D3CC009498E8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EAC812855D3CC009498E8 /* RegisterViewController.swift */; };
+		9B6EAC842856038E009498E8 /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EAC832856038E009498E8 /* StretchyHeader.swift */; };
+		9B6EAC8A285727CB009498E8 /* parallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EAC89285727CB009498E8 /* parallaxEffect.swift */; };
+		9B6EAC8C285790F2009498E8 /* ContactUsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EAC8B285790F1009498E8 /* ContactUsPage.swift */; };
+		9B7C3775279D6A100038B393 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C3774279D6A100038B393 /* EventsViewController.swift */; };
+		9B7C3777279D6BD90038B393 /* BlogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C3776279D6BD90038B393 /* BlogsViewController.swift */; };
+		9B7C3779279D6C420038B393 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C3778279D6C420038B393 /* ProjectsViewController.swift */; };
+		9B7C377B279D6CD80038B393 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C377A279D6CD80038B393 /* TeamsViewController.swift */; };
+		9B7C377D279D6DB50038B393 /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C377C279D6DB50038B393 /* AchievementsViewController.swift */; };
+		9B7C377F279D6DCE0038B393 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C377E279D6DCE0038B393 /* ContactViewController.swift */; };
+		9B954EE1285A00850029137D /* eventsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B954EE0285A00850029137D /* eventsPage.swift */; };
+		9BF083BE279C67E60028C7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083BD279C67E60028C7EB /* AppDelegate.swift */; };
+		9BF083C0279C67E60028C7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083BF279C67E60028C7EB /* SceneDelegate.swift */; };
+		9BF083C2279C67E60028C7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083C1279C67E60028C7EB /* ViewController.swift */; };
+		9BF083C5279C67E60028C7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF083C3279C67E60028C7EB /* Main.storyboard */; };
+		9BF083C7279C67EC0028C7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF083C6279C67EC0028C7EB /* Assets.xcassets */; };
+		9BF083D5279C67ED0028C7EB /* IQuest_VITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083D4279C67ED0028C7EB /* IQuest_VITTests.swift */; };
+		9BF083DF279C67ED0028C7EB /* IQuest_VITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083DE279C67ED0028C7EB /* IQuest_VITUITests.swift */; };
+		9BF083E1279C67ED0028C7EB /* IQuest_VITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083E0279C67ED0028C7EB /* IQuest_VITUITestsLaunchTests.swift */; };
+		9BF083F0279C7B5B0028C7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF083EF279C7B5A0028C7EB /* LaunchScreen.storyboard */; };
+		9BF083F2279C7DE90028C7EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083F1279C7DE90028C7EB /* HomeViewController.swift */; };
+		B378E8B65669590CD4D30F33 /* Pods_IQuest_VIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DF60943778691CAA1F63EF /* Pods_IQuest_VIT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF083D1279C67ED0028C7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF083B2279C67E60028C7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF083B9279C67E60028C7EB;
+			remoteInfo = "IQuest-VIT";
+		};
+		9BF083DB279C67ED0028C7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF083B2279C67E60028C7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF083B9279C67E60028C7EB;
+			remoteInfo = "IQuest-VIT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0F02ED2861AD8300FDD65C /* blogsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogsPage.swift; sourceTree = "<group>"; };
+		9B0F02EF2861B1CA00FDD65C /* pinterestGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterestGrid.swift; sourceTree = "<group>"; };
+		9B0F02F12862E4D700FDD65C /* achievementsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = achievementsPage.swift; sourceTree = "<group>"; };
+		9B0F02F32862E67A00FDD65C /* aboutUsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsPage.swift; sourceTree = "<group>"; };
+		9B38DEF6284558DF00A01303 /* pythonImageScraper.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonImageScraper.py; sourceTree = "<group>"; };
+		9B58E791285B16B900E1EEFC /* projectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectsPage.swift; sourceTree = "<group>"; };
+		9B58E793285EEB4400E1EEFC /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		9B6EAC7D2854BFD5009498E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B6EAC812855D3CC009498E8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9B6EAC832856038E009498E8 /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
+		9B6EAC89285727CB009498E8 /* parallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parallaxEffect.swift; sourceTree = "<group>"; };
+		9B6EAC8B285790F1009498E8 /* ContactUsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsPage.swift; sourceTree = "<group>"; };
+		9B7C3774279D6A100038B393 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		9B7C3776279D6BD90038B393 /* BlogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsViewController.swift; sourceTree = "<group>"; };
+		9B7C3778279D6C420038B393 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		9B7C377A279D6CD80038B393 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		9B7C377C279D6DB50038B393 /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		9B7C377E279D6DCE0038B393 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		9B954EE0285A00850029137D /* eventsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsPage.swift; sourceTree = "<group>"; };
+		9BF083BA279C67E60028C7EB /* IQuest-VIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQuest-VIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF083BD279C67E60028C7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF083BF279C67E60028C7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BF083C1279C67E60028C7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BF083C4279C67E60028C7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF083C6279C67EC0028C7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF083CB279C67EC0028C7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF083D0279C67ED0028C7EB /* IQuest-VITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQuest-VITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF083D4279C67ED0028C7EB /* IQuest_VITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuest_VITTests.swift; sourceTree = "<group>"; };
+		9BF083DA279C67ED0028C7EB /* IQuest-VITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQuest-VITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF083DE279C67ED0028C7EB /* IQuest_VITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuest_VITUITests.swift; sourceTree = "<group>"; };
+		9BF083E0279C67ED0028C7EB /* IQuest_VITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuest_VITUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BF083EF279C7B5A0028C7EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BF083F1279C7DE90028C7EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCD50945AA4D52936E84394B /* Pods-IQuest-VIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQuest-VIT.release.xcconfig"; path = "Target Support Files/Pods-IQuest-VIT/Pods-IQuest-VIT.release.xcconfig"; sourceTree = "<group>"; };
+		D8DF60943778691CAA1F63EF /* Pods_IQuest_VIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQuest_VIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F0E278A46731D12A0E195 /* Pods-IQuest-VIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQuest-VIT.debug.xcconfig"; path = "Target Support Files/Pods-IQuest-VIT/Pods-IQuest-VIT.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF083B7279C67E60028C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3B19492858ACD400E6B3B3 /* SDWebImageSwiftUI in Frameworks */,
+				B378E8B65669590CD4D30F33 /* Pods_IQuest_VIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF083CD279C67ED0028C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF083D7279C67ED0028C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		698CAA92BEF0E973FE92AE52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E25F0E278A46731D12A0E195 /* Pods-IQuest-VIT.debug.xcconfig */,
+				BCD50945AA4D52936E84394B /* Pods-IQuest-VIT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74C4AB9A8228B55D9665F7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8DF60943778691CAA1F63EF /* Pods_IQuest_VIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B38DEF028454AF600A01303 /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				9B6EAC89285727CB009498E8 /* parallaxEffect.swift */,
+				9B6EAC8B285790F1009498E8 /* ContactUsPage.swift */,
+				9B954EE0285A00850029137D /* eventsPage.swift */,
+				9B58E791285B16B900E1EEFC /* projectsPage.swift */,
+				9B58E793285EEB4400E1EEFC /* homePage.swift */,
+				9B0F02ED2861AD8300FDD65C /* blogsPage.swift */,
+				9B0F02EF2861B1CA00FDD65C /* pinterestGrid.swift */,
+				9B0F02F12862E4D700FDD65C /* achievementsPage.swift */,
+				9B0F02F32862E67A00FDD65C /* aboutUsPage.swift */,
+			);
+			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		9BF083B1279C67E60028C7EB = {
+			isa = PBXGroup;
+			children = (
+				9BF083BC279C67E60028C7EB /* IQuest-VIT */,
+				9BF083D3279C67ED0028C7EB /* IQuest-VITTests */,
+				9BF083DD279C67ED0028C7EB /* IQuest-VITUITests */,
+				9BF083BB279C67E60028C7EB /* Products */,
+				698CAA92BEF0E973FE92AE52 /* Pods */,
+				74C4AB9A8228B55D9665F7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF083BB279C67E60028C7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083BA279C67E60028C7EB /* IQuest-VIT.app */,
+				9BF083D0279C67ED0028C7EB /* IQuest-VITTests.xctest */,
+				9BF083DA279C67ED0028C7EB /* IQuest-VITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF083BC279C67E60028C7EB /* IQuest-VIT */ = {
+			isa = PBXGroup;
+			children = (
+				9B38DEF028454AF600A01303 /* ButtonStyle */,
+				9BF9AD91279EC4EB00B12B81 /* Storyboard */,
+				9BF9AD90279EC4B800B12B81 /* ViewControllers */,
+				9BF083BD279C67E60028C7EB /* AppDelegate.swift */,
+				9BF083BF279C67E60028C7EB /* SceneDelegate.swift */,
+				9BF083C6279C67EC0028C7EB /* Assets.xcassets */,
+				9BF083CB279C67EC0028C7EB /* Info.plist */,
+				9B38DEF6284558DF00A01303 /* pythonImageScraper.py */,
+			);
+			path = "IQuest-VIT";
+			sourceTree = "<group>";
+		};
+		9BF083D3279C67ED0028C7EB /* IQuest-VITTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083D4279C67ED0028C7EB /* IQuest_VITTests.swift */,
+			);
+			path = "IQuest-VITTests";
+			sourceTree = "<group>";
+		};
+		9BF083DD279C67ED0028C7EB /* IQuest-VITUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083DE279C67ED0028C7EB /* IQuest_VITUITests.swift */,
+				9BF083E0279C67ED0028C7EB /* IQuest_VITUITestsLaunchTests.swift */,
+			);
+			path = "IQuest-VITUITests";
+			sourceTree = "<group>";
+		};
+		9BF9AD90279EC4B800B12B81 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083C1279C67E60028C7EB /* ViewController.swift */,
+				9BF083F1279C7DE90028C7EB /* HomeViewController.swift */,
+				9B7C3774279D6A100038B393 /* EventsViewController.swift */,
+				9B7C3776279D6BD90038B393 /* BlogsViewController.swift */,
+				9B7C3778279D6C420038B393 /* ProjectsViewController.swift */,
+				9B7C377A279D6CD80038B393 /* TeamsViewController.swift */,
+				9B7C377C279D6DB50038B393 /* AchievementsViewController.swift */,
+				9B7C377E279D6DCE0038B393 /* ContactViewController.swift */,
+				9B6EAC7D2854BFD5009498E8 /* GoogleService-Info.plist */,
+				9B6EAC812855D3CC009498E8 /* RegisterViewController.swift */,
+				9B6EAC832856038E009498E8 /* StretchyHeader.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9BF9AD91279EC4EB00B12B81 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083C3279C67E60028C7EB /* Main.storyboard */,
+				9BF083EF279C7B5A0028C7EB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF083B9279C67E60028C7EB /* IQuest-VIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF083E4279C67ED0028C7EB /* Build configuration list for PBXNativeTarget "IQuest-VIT" */;
+			buildPhases = (
+				70F2F94BB4D2DEC7637BC832 /* [CP] Check Pods Manifest.lock */,
+				9BF083B6279C67E60028C7EB /* Sources */,
+				9BF083B7279C67E60028C7EB /* Frameworks */,
+				9BF083B8279C67E60028C7EB /* Resources */,
+				6799167048A33491059AA054 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQuest-VIT";
+			packageProductDependencies = (
+				9B3B19482858ACD400E6B3B3 /* SDWebImageSwiftUI */,
+			);
+			productName = "IQuest-VIT";
+			productReference = 9BF083BA279C67E60028C7EB /* IQuest-VIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF083CF279C67ED0028C7EB /* IQuest-VITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF083E7279C67ED0028C7EB /* Build configuration list for PBXNativeTarget "IQuest-VITTests" */;
+			buildPhases = (
+				9BF083CC279C67ED0028C7EB /* Sources */,
+				9BF083CD279C67ED0028C7EB /* Frameworks */,
+				9BF083CE279C67ED0028C7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF083D2279C67ED0028C7EB /* PBXTargetDependency */,
+			);
+			name = "IQuest-VITTests";
+			productName = "IQuest-VITTests";
+			productReference = 9BF083D0279C67ED0028C7EB /* IQuest-VITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BF083D9279C67ED0028C7EB /* IQuest-VITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF083EA279C67ED0028C7EB /* Build configuration list for PBXNativeTarget "IQuest-VITUITests" */;
+			buildPhases = (
+				9BF083D6279C67ED0028C7EB /* Sources */,
+				9BF083D7279C67ED0028C7EB /* Frameworks */,
+				9BF083D8279C67ED0028C7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF083DC279C67ED0028C7EB /* PBXTargetDependency */,
+			);
+			name = "IQuest-VITUITests";
+			productName = "IQuest-VITUITests";
+			productReference = 9BF083DA279C67ED0028C7EB /* IQuest-VITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF083B2279C67E60028C7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9BF083B9279C67E60028C7EB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9BF083CF279C67ED0028C7EB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9BF083B9279C67E60028C7EB;
+					};
+					9BF083D9279C67ED0028C7EB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9BF083B9279C67E60028C7EB;
+					};
+				};
+			};
+			buildConfigurationList = 9BF083B5279C67E60028C7EB /* Build configuration list for PBXProject "IQuest-VIT" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF083B1279C67E60028C7EB;
+			packageReferences = (
+				9B38DEF3284557F500A01303 /* XCRemoteSwiftPackageReference "PythonKit" */,
+				9B3B19472858ACD400E6B3B3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 9BF083BB279C67E60028C7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF083B9279C67E60028C7EB /* IQuest-VIT */,
+				9BF083CF279C67ED0028C7EB /* IQuest-VITTests */,
+				9BF083D9279C67ED0028C7EB /* IQuest-VITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF083B8279C67E60028C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF083F0279C7B5B0028C7EB /* LaunchScreen.storyboard in Resources */,
+				9B38DEF7284558DF00A01303 /* pythonImageScraper.py in Resources */,
+				9B6EAC7E2854BFD5009498E8 /* GoogleService-Info.plist in Resources */,
+				9BF083C7279C67EC0028C7EB /* Assets.xcassets in Resources */,
+				9BF083C5279C67E60028C7EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF083CE279C67ED0028C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF083D8279C67ED0028C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6799167048A33491059AA054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQuest-VIT/Pods-IQuest-VIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQuest-VIT/Pods-IQuest-VIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQuest-VIT/Pods-IQuest-VIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F2F94BB4D2DEC7637BC832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQuest-VIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF083B6279C67E60028C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7C377D279D6DB50038B393 /* AchievementsViewController.swift in Sources */,
+				9B6EAC8A285727CB009498E8 /* parallaxEffect.swift in Sources */,
+				9B0F02F22862E4D700FDD65C /* achievementsPage.swift in Sources */,
+				9B7C3777279D6BD90038B393 /* BlogsViewController.swift in Sources */,
+				9B58E792285B16BA00E1EEFC /* projectsPage.swift in Sources */,
+				9B58E794285EEB4400E1EEFC /* homePage.swift in Sources */,
+				9BF083C2279C67E60028C7EB /* ViewController.swift in Sources */,
+				9B0F02F02861B1CA00FDD65C /* pinterestGrid.swift in Sources */,
+				9BF083BE279C67E60028C7EB /* AppDelegate.swift in Sources */,
+				9B6EAC842856038E009498E8 /* StretchyHeader.swift in Sources */,
+				9B0F02EE2861AD8300FDD65C /* blogsPage.swift in Sources */,
+				9BF083C0279C67E60028C7EB /* SceneDelegate.swift in Sources */,
+				9BF083F2279C7DE90028C7EB /* HomeViewController.swift in Sources */,
+				9B7C377B279D6CD80038B393 /* TeamsViewController.swift in Sources */,
+				9B7C3775279D6A100038B393 /* EventsViewController.swift in Sources */,
+				9B954EE1285A00850029137D /* eventsPage.swift in Sources */,
+				9B6EAC822855D3CC009498E8 /* RegisterViewController.swift in Sources */,
+				9B7C3779279D6C420038B393 /* ProjectsViewController.swift in Sources */,
+				9B0F02F42862E67A00FDD65C /* aboutUsPage.swift in Sources */,
+				9B6EAC8C285790F2009498E8 /* ContactUsPage.swift in Sources */,
+				9B7C377F279D6DCE0038B393 /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF083CC279C67ED0028C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF083D5279C67ED0028C7EB /* IQuest_VITTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF083D6279C67ED0028C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF083DF279C67ED0028C7EB /* IQuest_VITUITests.swift in Sources */,
+				9BF083E1279C67ED0028C7EB /* IQuest_VITUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF083D2279C67ED0028C7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF083B9279C67E60028C7EB /* IQuest-VIT */;
+			targetProxy = 9BF083D1279C67ED0028C7EB /* PBXContainerItemProxy */;
+		};
+		9BF083DC279C67ED0028C7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF083B9279C67E60028C7EB /* IQuest-VIT */;
+			targetProxy = 9BF083DB279C67ED0028C7EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF083C3279C67E60028C7EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF083C4279C67E60028C7EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF083E2279C67ED0028C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF083E3279C67ED0028C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF083E5279C67ED0028C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25F0E278A46731D12A0E195 /* Pods-IQuest-VIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 729X75V974;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IQuest-VIT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IQuest.IQuest-VIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF083E6279C67ED0028C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD50945AA4D52936E84394B /* Pods-IQuest-VIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 729X75V974;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IQuest-VIT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IQuest.IQuest-VIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BF083E8279C67ED0028C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729X75V974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IQuest.IQuest-VITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQuest-VIT.app/IQuest-VIT";
+			};
+			name = Debug;
+		};
+		9BF083E9279C67ED0028C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729X75V974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IQuest.IQuest-VITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQuest-VIT.app/IQuest-VIT";
+			};
+			name = Release;
+		};
+		9BF083EB279C67ED0028C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729X75V974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IQuest.IQuest-VITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IQuest-VIT";
+			};
+			name = Debug;
+		};
+		9BF083EC279C67ED0028C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 729X75V974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IQuest.IQuest-VITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IQuest-VIT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF083B5279C67E60028C7EB /* Build configuration list for PBXProject "IQuest-VIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF083E2279C67ED0028C7EB /* Debug */,
+				9BF083E3279C67ED0028C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF083E4279C67ED0028C7EB /* Build configuration list for PBXNativeTarget "IQuest-VIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF083E5279C67ED0028C7EB /* Debug */,
+				9BF083E6279C67ED0028C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF083E7279C67ED0028C7EB /* Build configuration list for PBXNativeTarget "IQuest-VITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF083E8279C67ED0028C7EB /* Debug */,
+				9BF083E9279C67ED0028C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF083EA279C67ED0028C7EB /* Build configuration list for PBXNativeTarget "IQuest-VITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF083EB279C67ED0028C7EB /* Debug */,
+				9BF083EC279C67ED0028C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B38DEF3284557F500A01303 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9B3B19472858ACD400E6B3B3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B3B19482858ACD400E6B3B3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B3B19472858ACD400E6B3B3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9BF083B2279C67E60028C7EB /* Project object */;
+}
